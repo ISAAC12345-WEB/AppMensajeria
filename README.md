@@ -2,5 +2,5 @@
 
 ## Introducción
 Esta pagina web ha sido creado con visual studio code, html, css(pude agregar una buena imagen de fondo) y javascript.
-Algunos requerimintos estan hechos
+Algunos requerimintos estan cumplidos.
 
