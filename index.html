@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA WEB - CHAT</title>
+    <link href="estilo.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo hijo1">
+            <div class="nieto nieto1">
+                <span style="color: white; font-style: oblique;">Reto GeeksHubs</span>
+                <p style="color: white;font-style: oblique;">Alumno BTC</p>
+            </div>
+            <div class="nieto nieto2">
+                <div style="color: white; font-style: oblique;" class="nieto2-1" id="contenedor">
+                    <input type="text" id="input1" placeholder="Canales">
+                    <button onclick="addHtml()"> ➕</button>
+                </div>
+                <div style="color: white; font-style: oblique;" class="nieto2-1" id="contenedor2">
+                    <input type="text" id="input2" placeholder="Mensajes Directos">
+                    <button onclick="addHtml2()">➕</button>
+                </div>
+                <div style="color: white; font-style: oblique;"  class="nieto2-1" id="contenedor3">
+                    <input type="text" id="input3" placeholder="Apps">
+                    <button onclick="addHtml3()">➕</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="hijo hijo2">
+            <div class="nieto nieto3">
+                <span style="font-style: oblique;">General</span>
+                <input type="text" placeholder="Buscar..." class="buscar" plac>
+            </div>
+            <div class="nieto nieto4">
+                <div class="nieto4-1">
+                    <div class="futuro1">
+                        <div id="USUARIO">
+                            <div class="img_msg">
+                                <img src="iconos/azul.png" class="usuario_mensaje">
+                            </div>
+                            <div class="contenedorMensaje">Alumno BTC: Hola tengo una duda sobre el reto final</div>
+                        </div>
+                        <div id="USUARIO">
+                            <div class="img_msg">
+                                <img src="iconos/amarillo.png" class="usuario_mensaje">
+                            </div>
+                            <div class="contenedorMensaje">Gonzalo Garcia: Bienvenido!! como podemos ayudarte ?</div>
+                            
+                        </div>
+                        <div id="USUARIO">
+                            <div class="img_msg">
+                                <img src="iconos/azul.png" class="usuario_mensaje">
+                            </div>
+                            <div class="contenedorMensaje">Alumno BTC: No tengo claro como capturar el evento click</div>
+                            
+                        </div>        
+                        <div id="USUARIO">
+                            <div class="img_msg">
+                                <img src="iconos/azul.png" class="usuario_mensaje">
+                            </div>
+                            <div class="contenedorMensaje">Alumno BTC:<ul style="list-style: none;" id="mensaje"></ul></div>
+                            
+                        </div>
+                    </div>
+                
+                </div>
+                    
+                    <div class="nieto4-2">
+                            <textarea id="textarea" class="form-control type_msg" placeholder="Escribe mensaje..."></textarea>
+                            <button id="button">Enviar</button>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js.js"></script>
+</body>
+</html>

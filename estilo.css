@@ -1,0 +1,140 @@
+body{
+    background-image:  url('https://k31.kn3.net/taringa/2/4/2/8/3/9/09/-splash-/7D7.jpg?8890');
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38em;
+    width: 80;
+}
+#input1{
+    width: 14em;
+}
+#input2{
+    width: 14em;
+}
+#input3{
+    width: 14em;
+}
+.hijo{
+    background-color: red;
+}
+.hijo1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    align-items: center;
+    height: 30em;
+    width: 20em;
+    background-color: rgb(34, 34, 123);
+}
+.hijo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    align-items: center;
+    height: 30em;
+    width: 53em;
+    background-color: white;
+}
+.nieto{
+    background-color: cornflowerblue;
+}
+.nieto1{
+    border: 1px solid white;
+    height: 3.3em;
+    width: 17em;
+    background-color: rgb(34, 34, 123);
+}
+
+.buscar{
+    height: 3.5em;
+    width: 19.8em;
+    float: right;
+}
+
+.nieto2{
+    display: flex;
+    flex-direction: column;;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22em;
+    width: 17em;
+    background-color: rgb(34, 34, 123);
+}
+.nieto2-1{
+    list-style: decimal;
+    border: 1px solid white;
+    height: 4.7em;
+    width: 16em;
+    background-color: rgb(34, 34, 123);
+    overflow-y: scroll;
+}
+.nieto3{
+    height: 3.3em;
+    width: 50em;
+    background-color: white;
+    border: 1px solid black;
+}
+.nieto4{
+    display: flex;
+    flex-direction: column;;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22em;
+    width: 50em;
+    background-color: white;
+}
+.nieto4-1{
+    display: flex;
+    flex-direction: column;;
+    justify-content: space-around;;
+    height: 16em;
+    width: 48em;
+    border: 1px solid black;
+}
+.img_msg {
+	height: 1px;
+	width: 40px;
+}
+.contenedorMensaje {
+	margin-top: auto;
+	margin-bottom: 3%;
+	margin-left: 48px;
+	background-color: #f5fcfe;
+	padding: 10px;
+	position: relative;
+    border: 1px solid black;
+}
+.usuario_mensaje {
+    margin-top: auto;
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+    background-color: #e9eff0;
+}
+#mensaje{
+    margin-right: 5px;
+}
+.futuro1{
+    /*margin-top: 1%;*/
+    overflow-y: scroll;
+	margin-left: 5px;
+}
+.nieto4-2{
+    height: 4.7em;
+    width: 48em;
+    background-color: rgb(244, 240, 241);
+    border: 1px solid black;
+}
+#textarea{
+    width: 52em;
+}
